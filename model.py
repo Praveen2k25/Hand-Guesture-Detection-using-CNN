@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 
-model = load_model('hand_gesture_model_gray.h5')
+model = load_model("Hand-Guesture-Detection-using-CNN\hand_gesture_model_gray.h5")
 
 
 classes = ['open hand', 'closed hand'] 
